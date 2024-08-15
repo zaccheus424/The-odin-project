@@ -1,0 +1,177 @@
+:root{
+    
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: gray;
+}
+body{
+    font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.logo{
+    width: 220px;
+}
+path{
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    d: path("M 12 3 v 2.25 m 6.364 0.386 l -1.591 1.591 M 21 12 h -2.25 m -0.386 6.364 l -1.591 -1.591 M 12 18.75 V 21 m -4.773 -4.227 l -1.591 1.591 M 5.25 12 H 3 m 4.227 -4.773 L 5.636 5.636 M 15.75 12 a 3.75 3.75 0 1 1 -7.5 0 a 3.75 3.75 0 0 1 7.5 0 Z");
+}
+.container{
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    background: transparent;
+    align-items: center;
+    margin: 15px 0 0 0;
+    display: flex;
+}
+
+.container .nav nav{
+display: flex;
+vertical-align: middle;
+text-align: center;
+align-items: center;
+justify-content: space-between;
+}
+
+ .list{
+    display: flex;
+    list-style-type: none;
+}
+.list li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: bold;
+}
+.list li a, .star, .button{
+    margin-right: 30px;
+    vertical-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+}
+.list li a{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.list li a:hover{
+ border-bottom: 2px solid rgb(231, 229, 229);
+ color: rgb(14, 13, 13);
+
+}
+.button1{
+    height: 40px;
+    width: 110px;
+    background-color: #115e59;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 11px;
+}
+.star svg{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 23px;
+    margin-top: 10px;
+}
+.star:hover svg path{
+    color: rgb(36, 34, 34);
+    
+}
+.first{
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+    font-weight: 50px;
+    font-size: 35px;
+    color: black;
+    line-height: 0.3;
+}
+.second{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 13px;
+}
+.web{
+    color: rgb(212, 142, 102);
+}
+.button2{
+    height: 50px;
+    width: 190px;
+    color: #636669;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(175, 168, 168);
+    border-radius: 6px;
+    margin-top: 15px;
+    box-shadow: 7px solid rgb(241, 239, 239);
+}
+.button2:hover{
+    background-color: #f3f4f6;
+}
+#hello{
+    margin-top: 29px;
+    width: 100%;
+}
+.third{
+    text-align: center;
+    /*margin-top: 80px;*/
+    width: 80%;
+    margin: 80px auto 50px;
+}
+.fourth{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 9px 15px 9px 15px;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+.fourth div{
+    display: block;
+    text-align: center;
+    width: 200px;
+}
+.fourth div a{
+    text-decoration: none;
+}
+h4{
+    color: rgb(105, 103, 103);
+    font-weight: 5800;
+}
+.fifth{
+    background-color: #f3f4f6;
+    justify-content: center;
+    text-align: center;
+    color: #4b5563;
+    padding: 75px 25px;
+    
+}
+.fifth .lesson .contain{
+    height: 300px;
+    width: 230px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 19px;
+    margin: 10px;
+}
+.lesson{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    color: black;
+    margin-bottom: 80px;
+}
+
